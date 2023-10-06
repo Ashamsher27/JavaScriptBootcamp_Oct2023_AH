@@ -1,57 +1,83 @@
 html, body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #ccc;
+    background-color: #ddd;
+    max-width: 800px;
+    margin: auto;
+    margin-top: .5%;
+    margin-bottom: .8%;
 }
 
 main {
     background-color: white;
+    margin-top: 0%;
+    padding-right: 3.8%;
+    padding-left: 3.8%;
+    padding-bottom: 4%;
 }
 
-.p1 {
-
+h1 {    
+    font-family: 'Seaweed Script', cursive;
+    font-size: x-large;
+    margin-top: 1%;
+    padding-top: 7%;
 }
-    div.p1 p {
-        margin-top: 0;
-        box-sizing: border-box;
-    }
+
+p {
+    font-family: 'Nanum Brush Script', cursive;
+}
 
 .floatright {
     float: right;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    width: 35%;   /* THE MOST IMPORTANT THING JESUS CHRIST WHY DID THIS TAKE SO LONG TO FIGURE OUT*/
+    transform: rotate(3deg);
     background-color: #fff;
-    border: solid #ccc;
-    box-sizing: border-box;
+    border: solid #ddd;
+    box-shadow: 5px 5px #ddd;
     
 }
     div.floatright figure {
-        box-sizing: border-box;
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
 
     }
     div.floatright img {
-        max-width: 35%;
+        max-width: 100%;
+        max-height: 100%;
     }
     div.floatright figcaption {
         text-align: center;
+        font-family: 'Nanum Brush Script', cursive;
+        margin-top: 5%;
     }
 
 
 .floatleft {
     float: left;
+    width: 35%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+    transform: rotate(-3deg);
     background-color: #fff;
-    border: solid #ccc;
-    box-sizing: border-box;
+    border: solid #ddd;
+    box-shadow: 5px 5px #ddd;
 }
     div.floatleft figure {
-        box-sizing: border-box;
-
+        margin-top: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     div.floatleft img {
-        max-width: 25%;
+        max-width: 100%;
+        max-height: 100%;
     }
     div.floatleft figcaption {
         text-align: center;
+        font-family: 'Nanum Brush Script', cursive;
+        margin-top: 5%;
     }
