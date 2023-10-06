@@ -1,13 +1,6 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box
-}
-
 body {
     background-color: #ccc;
 }
-
 main {
     background-color: white;
 }
@@ -17,41 +10,32 @@ main {
 }
     div.p1 p {
         margin-top: 0;
-        box-sizing: border-box;
     }
 
 .floatright {
     float: right;
+    margin: auto;
     background-color: #fff;
+    padding: 10px;
     border: solid #ccc;
-    box-sizing: border-box;
-    
 }
     div.floatright figure {
-        box-sizing: border-box;
 
     }
     div.floatright img {
         max-width: 35%;
     }
-    div.floatright figcaption {
-        text-align: center;
-    }
-
 
 .floatleft {
-    float: left;
+    float: right;
+    margin: 0 0 10px 10px;
     background-color: #fff;
+    padding: 10px;
     border: solid #ccc;
-    box-sizing: border-box;
 }
     div.floatleft figure {
-        box-sizing: border-box;
 
     }
     div.floatleft img {
         max-width: 25%;
-    }
-    div.floatleft figcaption {
-        text-align: center;
     }
