@@ -1,0 +1,192 @@
+html, body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50%;
+}
+
+body {
+    background-color: #f9fafc;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    color: #000; 
+}
+
+#top-chirpus {
+    font-size: small;
+    padding-left: 10px;
+}
+
+#center-chirpus {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 10px;
+}
+
+li {
+    color: #69696a;
+    font-size: small;
+    padding-bottom: 12px;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+}
+
+button {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff
+}
+
+.hire-us {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.call-to-action {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lorem-ipsum {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-left-color: #69696a;
+    border-left-width: .2em;
+    border-left-style: solid;
+    padding-left: 2%;
+    
+}
+
+p {
+    color: #69696a;
+    width: fit-content;
+}
+
+
+h2 {
+    color: #000;
+    font-size: smaller;
+    margin: 0;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(247, 193, 162, 0.7);
+}
+
+nav.bottom ul {
+    width: max-content;
+}
+
+nav.bottom li {
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: max-content;
+}
+
+.large-circle {
+    visibility: hidden;
+}
+.small-circle {
+    visibility: hidden;
+}
+.medium-circle {
+    visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+
+    .nav-top-hire-us {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    nav.top li {
+        display: inline-block;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        max-width: fit-content;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .lorem-ipsum {
+        max-width: 50%;
+    }
+
+    .call-to-action {
+        max-width: 50%;
+    }
+
+    .large-circle {
+        visibility: visible;
+        position: relative;
+        top: 30px;
+        right: 90px;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+    }
+
+    .small-circle {
+        visibility: visible;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+        height: 175px;
+        width: 175px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+    }
+
+    .medium-circle {
+        visibility: visible;
+        position: absolute;
+        top: 325px;
+        right: 20px;
+        height: 235px;
+        width: 235px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+    }
+}
