@@ -9,7 +9,7 @@ const population= "139600000"; {
     console.log(population * 3);
 }
 
-const javaScriptisCool= Boolean(true);
+const javaScriptisCool= true;
 
 const colors= ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
