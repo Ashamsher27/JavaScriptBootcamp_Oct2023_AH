@@ -1,21 +1,23 @@
-const name1="BJ Clark"; //7
-const name2="Olaposi Omishope"; //15
-const name3="Jonathon Plumb"; //13
+const nameOne="1"; 
+const nameTwo="124"; 
+const nameThree="123";
 
-
-if (Object.keys(name1) > Object.keys(name2) && Object.keys(name3)) {
-    console.log(`${name1} has the longest name.`)
-} else if (Object.keys(name2) > Object.keys(name1) && Object.keys(name3)) {
-    console.log(`${name2} has the longest name.`);
-} else if (Object.keys(name3) > Object.keys(name1) && Object.keys(name2)) {
-    console.log(`${name3} has the longest name.`);
-} else (console.log(`${name1} and ${name2} and ${name3} all have the longest name.`)); {
+{   
+    let biggestname = Math.max(nameOne.length, nameTwo.length, nameThree.length);
+    console.log(biggestname);
+    if ((biggestname == nameOne.length) && (biggestname == nameTwo.length) && (biggestname == nameThree.length)) {
+            console.log(`All three names: ${nameOne}, ${nameTwo}, and ${nameThree}`);
+        } else if ((biggestname == nameOne.length) && (biggestname == nameTwo.length)) {
+            console.log(`${nameOne} and ${nameTwo} have the longest names.`);
+        } else if ((biggestname == nameOne.length) && (biggestname == nameThree.length)) {
+            console.log(`${nameOne} and ${nameThree} have the longest names.`);
+        } else if ((biggestname == nameThree.length) && (biggestname == nameTwo.length)) {
+            console.log(`${nameThree} and ${nameTwo} have the longest names.`);
+        } else if (biggestname == nameOne.length) {
+            console.log(`${nameOne} is the longest name.`); 
+        } else if (biggestname == nameTwo.length) {
+            console.log(`${nameTwo} is the longest name.`);
+        } else if (biggestname == nameThree.length) {
+            console.log(`${nameThree} is the longest name.`);   
+        }
 }
-
-
-//where 1 & 3 are the same but greater than 2 
-//where 2 & 3 are the same but greater than 1 
-
-
-
- 
