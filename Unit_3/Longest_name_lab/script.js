@@ -1,6 +1,6 @@
-const nameOne="1"; 
-const nameTwo="124"; 
-const nameThree="123";
+const nameOne="BJ Clark"; 
+const nameTwo="Olaposi Omishope"; 
+const nameThree="Jonathan Plumb";
 
 {   
     let biggestname = Math.max(nameOne.length, nameTwo.length, nameThree.length);
