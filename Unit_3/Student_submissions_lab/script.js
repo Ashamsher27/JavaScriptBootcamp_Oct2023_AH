@@ -38,12 +38,9 @@ function deleteSubmissionByIndex(array, index) {
 function deleteSubmissionByName(array, name) {
     const nameToDelete = 
     array.findIndex(submissions => submissions.name === name);
-    //const array1 = [5, 12, 8, 130, 44];
-    //const isLargeNumber = (element) => element > 13;
-    //console.log(array1.findIndex(isLargeNumber));
     if (nameToDelete !== -1) {  
         //The findIndex method requires a callback function that returns true. 
-        // The !== here means that it will return the index of the first element in the array that satisfies what I asked for. If no element is found, it returns -1.
+        // The !== means that it will return the index of the first element in the array that satisfies what I asked for. If no element is found, it returns -1.
      array.splice(nameToDelete, 1);   //the one refers to how many elements need to be deleted 
     }
 }
