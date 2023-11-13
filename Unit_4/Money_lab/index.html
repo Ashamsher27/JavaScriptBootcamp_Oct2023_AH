@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="form-group"> <!--inputs-->
+            <form> 
+                    <label for="howMany">How many?</label>
+                    <input type="text" id="howMany" name="howMany" min="1"> <br>
+                    <label for="whichCoin">Which coin?</label>
+                    <select id="whichCoin" name="whichCoin">
+                        <option value="Penny">Penny</option>
+                        <option value="Nickel">Nickel</option>
+                        <option value="Dime">Dime</option>
+                        <option value="Quarter">Quarter</option>
+                    </select>
+            </form>
+        </div> <!--/inputs-->
+
+        <div> <!--button-->
+            <button id=make-money-button type="submit"> Make money! </button>
+        </div> <!--/button-->
+
+        <div class="currency">
+            <div id="penny-container"> <!--penny-->
+                <img src="penny.png" id="penny-coin" alt="American penny; $0.01">
+            </div> <!--/penny-->
+
+            <div id="nickel-container"> <!--nickel-->
+                <img src="nickel.png" id="nickel-coin" alt="American nickel; $0.05">
+            </div> <!--/nickel-->
+                
+            <div id="dime-container"> <!--dime-->
+                <img src="dime.png" id="dime-coin" alt="American dime; $0.10">
+            </div> <!--/dime-->
+
+            <div id="quarter-container"> <!--quarter-->
+                <img src="quarter.png" id="quarter-coin" alt="American quarter; $0.25">
+            </div> <!--/quarter-->
+
+        </div> <!--/currency-->
+    </main>
+    <script src="/script.js"></script>  
+</body>
+</html>
